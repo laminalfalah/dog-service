@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  io.github.laminalfalah.dogservice.properties.CommonProperties,\
+  io.github.laminalfalah.dogservice.properties.VersionProperties,\
+  io.github.laminalfalah.dogservice.properties.SwaggerProperties

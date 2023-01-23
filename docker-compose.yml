@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  dog-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dog-service
+    image: dog-service:latest
+    ports:
+    - '8080:8080'
+    restart: always
